@@ -1,3 +1,54 @@
 <resources>
     <string name="app_name">New Backing</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <!--Menu titles-->
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_filter_users">Фильтр пользователей</string>
+    <string name="menu_home">Форумы</string>
+    <string name="drawer_header_name">Николай Гук</string>
+
+    <!--Error messages-->
+    <string name="err_msg_something_goes_wrong">Упс… Что-то пошло не так…</string>
+    <string name="err_msg_no_data">No data</string>
+    <string name="err_msg_connection_problem">Нет интернет соеденения</string>
+    <string name="err_msg_user_has_been_deleted">Пользователь удален</string>
+    <string name="err_msg_user_has_been_added">Пользователь добавлен</string>
+    <string name="err_msg_no_users_has_been_added">Нет пользоватей в черном списке</string>
+
+    <!--Titles-->
+    <string name="title_packets_till_50">Пакеты до 50$</string>
+    <string name="title_packets_from_50_to_500">Пакеты от 50$ до 500$</string>
+    <string name="title_packets_above_500">Пакеты больше 500$</string>
+    <string name="title_packets_long_term">Долгострочные пакеты</string>
+    <string name="title_gipsy_till_100">Gipsy пакеты до 100$</string>
+    <string name="title_gipsy_over_100">Gipsy пакеты больше 100$</string>
+    <string name="title_settings">Настройки</string>
+    <string name="title_black_list">Черный список</string>
+    <string name="title_forums">Форумы</string>
+    <string name="title_add_author">Добавление позьзователя в черный список</string>
+
+    <!--Messages-->
+    <string name="question_want_add_user">Добавить пользователя %s в черный список</string>
+    <string name="msg_new_theme">Пользователь %s написал %s</string>
+    <string name="msg_title_new_theme">Новая тема</string>
+    <string name="msg_input_author">Введите имя пользователя</string>
+    <string name="msg_back_to_exit">Для вихода нажмите  дважды</string>
+
+    <!--Buttons-->
+    <string name="button_yes">Да</string>
+    <string name="button_no">Нет</string>
+    <string name="button_retry">Retry</string>
+    <string name="button_cancel">Отменить</string>
+    <string name="button_add">Добавить</string>
+
+    <!--Settings screen-->
+    <string name="settings_gipsy">Мониторить Gipsy</string>
+    <string name="settings_poker">Мониторить Poker Strategy</string>
+
+    <!--Splash screen-->
+    <string name="app_name_ru">Бэкинг</string>
+    <string name="msg_title_new_theme_pokerStrategy">Poker Strategy</string>
+    <string name="msg_title_new_theme_gipsy">Gipsy</string>
 </resources>
