@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/padding_half">
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switchGipsy_FS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_default"
+        android:text="@string/settings_gipsy"
+        android:textAlignment="textStart"
+        android:textColor="@color/textColorGray"
+        android:textSize="@dimen/text_size_default"/>
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switchPoker_FS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_default"
+        android:text="@string/settings_poker"
+        android:textAlignment="textStart"
+        android:textColor="@color/textColorGray"
+        android:textSize="@dimen/text_size_default"/>
+
+</LinearLayout>

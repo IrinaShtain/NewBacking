@@ -28,6 +28,14 @@
             android:configChanges="screenSize|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme"/>
+
+        <service android:name=".presentation.services.GipsyTeamService_"
+                 android:process=":own_service_process"
+            />
+        <service android:name=".presentation.services.PokerStrategyService_"
+                 android:process=":own_service_process"
+            />
+
     </application>
 
 </manifest>

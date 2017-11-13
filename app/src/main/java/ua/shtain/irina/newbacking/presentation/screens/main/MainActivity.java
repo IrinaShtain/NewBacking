@@ -8,6 +8,7 @@ import org.androidannotations.annotations.EActivity;
 import ua.shtain.irina.newbacking.R;
 import ua.shtain.irina.newbacking.presentation.base.DrawerActivity;
 import ua.shtain.irina.newbacking.presentation.screens.main.filter.BlackListFragment_;
+import ua.shtain.irina.newbacking.presentation.screens.main.settings.SettingsFragment_;
 
 @EActivity(R.layout.activity_drawer)
 public class MainActivity extends DrawerActivity {
@@ -28,7 +29,7 @@ public class MainActivity extends DrawerActivity {
                 replaceFragment(BlackListFragment_.builder().build());
                 break;
             case R.id.menuSettings:
-                //replaceFragment(SettingsFragment_.builder().build());
+                replaceFragment(SettingsFragment_.builder().build());
                 break;
 
         }
