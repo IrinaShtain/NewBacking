@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/llLogoContainer_AS"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:orientation="vertical"
+
+    >
+
+    <ImageView
+        android:id="@+id/ivLogo_AS"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        android:alpha="0"
+        tools:alpha="1"
+        />
+
+    <TextView
+        android:id="@+id/tvLogo_AS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/margin_default"
+        android:alpha="0"
+        android:gravity="center"
+        android:text="@string/app_name_ru"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        tools:alpha="1"
+        />
+
+</LinearLayout>

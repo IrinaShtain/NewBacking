@@ -1,4 +1,4 @@
-package ua.shtain.irina.newbacking.presentation.screens;
+package ua.shtain.irina.newbacking.presentation.screens.main;
 
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
