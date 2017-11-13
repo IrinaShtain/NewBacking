@@ -10,6 +10,7 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
 import ua.shtain.irina.newbacking.R;
+import ua.shtain.irina.newbacking.presentation.screens.main.home.HomeFragment_;
 
 /**
  * Created by Irina Shtain on 02.10.2017.
@@ -46,7 +47,7 @@ public abstract class DrawerActivity extends BaseActivity implements NavigationV
         nvDrawer_AD.setNavigationItemSelectedListener(this);
 
         if (getSupportFragmentManager().getBackStackEntryCount() == 0) {
-            //  addFragment(HomeFragment_.builder().build());
+            addFragment(HomeFragment_.builder().build());
             nvDrawer_AD.getMenu().getItem(0).setChecked(true);
         }
     }

@@ -5,6 +5,7 @@ import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -50,6 +51,8 @@ public class SplashActivity extends AppCompatActivity implements SplashContract.
 
     @Override
     public void runSplashAnimation() {
+        Log.i("mLog", "**************************** runSplashAnimation");
+
         animatorSet = new AnimatorSet();
         animatorSet.playTogether(ObjectAnimator.ofFloat(tvLogo_AS, View.ALPHA, 0, 1),
                 ObjectAnimator.ofFloat(ivLogo_AS, View.ALPHA, 0, 1),
