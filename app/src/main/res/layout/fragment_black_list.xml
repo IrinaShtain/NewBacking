@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvListItems_FBL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorGrayLight">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/tvPlaceholderMessage_FBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/textColorGray"
+        android:textSize="@dimen/text_size_large"
+        android:visibility="gone"
+        android:text="@string/err_msg_no_users_has_been_added"
+        tools:visibility="visible"
+        />
+
+    <ImageView
+        android:id="@+id/ivPlaceholderImage_FBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tvPlaceholderMessage_FBL"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_default"
+        android:minHeight="@dimen/avatar_large"
+        android:minWidth="@dimen/avatar_large"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:src="@drawable/ic_no_users"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnAddUser_FBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/padding_default"
+        android:src="@drawable/ic_add"
+        app:fabSize="normal"
+        app:layout_anchorGravity="bottom|end"/>
+
+</RelativeLayout>

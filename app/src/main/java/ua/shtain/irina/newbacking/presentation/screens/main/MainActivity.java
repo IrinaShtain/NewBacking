@@ -1,14 +1,13 @@
 package ua.shtain.irina.newbacking.presentation.screens.main;
 
 import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.MenuItem;
 
 import org.androidannotations.annotations.EActivity;
 
 import ua.shtain.irina.newbacking.R;
 import ua.shtain.irina.newbacking.presentation.base.DrawerActivity;
+import ua.shtain.irina.newbacking.presentation.screens.main.filter.BlackListFragment_;
 
 @EActivity(R.layout.activity_drawer)
 public class MainActivity extends DrawerActivity {
@@ -26,7 +25,7 @@ public class MainActivity extends DrawerActivity {
                 //replaceFragment(HomeFragment_.builder().build());
                 break;
             case R.id.menuFilter:
-                //replaceFragment(BlackListFragment_.builder().build());
+                replaceFragment(BlackListFragment_.builder().build());
                 break;
             case R.id.menuSettings:
                 //replaceFragment(SettingsFragment_.builder().build());

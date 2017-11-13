@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_quart"
+        android:layout_marginTop="@dimen/margin_default"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="@string/title_add_author"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_large"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin_large"
+        android:background="@color/colorDivider"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilAuthor_FDAA"
+        style="@style/TILStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_large"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_default"
+        android:hint="@string/msg_input_author"
+        app:errorEnabled="true"
+        >
+
+        <EditText
+            android:id="@+id/etAuthor_FDAA"
+            style="@style/AuthEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/margin_large"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnCancel_FDAA"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_half"
+            android:layout_marginStart="@dimen/margin_default"
+            android:text="@string/button_cancel"
+            android:textColor="@color/textColorGray"
+            />
+
+        <Button
+            android:id="@+id/btnAdd_FDAA"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_add"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
